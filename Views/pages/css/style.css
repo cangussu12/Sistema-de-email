@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+body {
+    background: #1f1e1e;
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1280px;
+	margin:0 auto;
+    padding:0 2%;
+}
+
+header{
+	background: #3C7982;
+	padding:10px 0;
+}
+
+.logo{
+	float: left;
+    color: white;
+}
+
+nav{
+	position: relative;
+	top: 8px;
+    float: right;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+    padding: 0 15px;
+    background: #3C7982;
+}
+
+nav a:hover{
+    background: #222324;
+    transition:all 1s ease;
+    border-radius: 10px;
+}
+
+.chamada{
+	text-transform: uppercase;
+	padding: 40px 15px;
+	background: #161616;
+	text-align: center;
+}
+
+.chamada h2{
+    text-align: center;
+    width: 400px;
+	display: inline-block;
+	color: white;
+    border-top:3px solid white; 
+    background: #161616;
+}
+
+.principal{
+    padding:40px 0;
+    background: #1f1e1e;
+}
+
+.principal h2{
+	color: #8dc5ce;
+}
+
+.sobre p{
+	margin-top:15px;
+	font-size: 16px;
+    color: #3C7982;
+}
+
+.contato{
+	text-align: center;
+	padding:80px 0;
+}
+
+.contato form{
+	width: 100%;
+	max-width: 600px;
+	display: inline-block;
+}
+
+.contato input[type=text]{
+	width: 100%;
+	height: 40px;
+	padding-left: 8px;
+    display: block;
+    color: #3C7982;
+    background: #292929;
+    border-radius: 10px;
+    border: #fff;
+}
+
+.contato input[type=text]:hover{
+	width: 100%;
+	height: 40px;
+	padding-left: 8px;
+    display: block;
+    color: #3C7982;
+    background: #161616;
+    border-radius: 10px;
+    border: #fff;
+    transition:all 0.8s ease;
+}
+
+.contato textarea{
+	margin-top: 8px;
+	width: 100%;
+	height: 120px;
+	display: block;
+    padding:10px;
+    background: #292929;
+    color: #3C7982;
+    border-radius: 10px;
+    border: #fff;
+}
+
+.contato textarea:hover{
+	margin-top: 8px;
+	width: 100%;
+	height: 120px;
+	display: block;
+    padding:10px;
+    background: #161616;
+    color: #3C7982;
+    border-radius: 10px;
+    border: #fff;
+    transition:all 0.8s ease;
+}
+
+.contato input[type=submit]{
+	width: 100px;
+	height: 40px;
+	border: 0;
+	background: #3C7982;
+	color: white;
+	cursor: pointer;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.contato input[type=submit]:hover{
+	width: 100px;
+	height: 40px;
+	border: 0;
+	background: #233d41;
+	color: white;
+	cursor: pointer;
+    margin-top: 8px;
+    border-radius: 10px;
+    transition:all 0.8s ease;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding:20px 0;
+	text-align: center;
+	color: white;
+	background: #3C7982;
+}
+
+footer p{
+    background: #3C7982;
+}
+.alerta{
+	margin:10px 0;
+	border-left: 4px solid #4b4b4b;
+	background: rgb(225,225,225);
+	padding: 8px;
+}
+
+.alerta h3{
+	font-size: 18px;
+	font-weight: normal;
+	color: #4b4b4b;
+}
