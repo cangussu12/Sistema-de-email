@@ -18,6 +18,10 @@
             }
 
         }
+
+        public function Connection(){
+            $pdo = new PDO('mysql:host=localhost;dbname=work_email','root','');
+        }
     }
 
 ?>

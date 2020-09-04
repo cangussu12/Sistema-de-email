@@ -177,13 +177,13 @@ footer p{
 }
 .alerta{
 	margin:10px 0;
-	border-left: 4px solid #4b4b4b;
-	background: rgb(225,225,225);
+	border-left: 4px solid #3C7982;
+	background: rgb(31, 31, 31);
 	padding: 8px;
 }
 
 .alerta h3{
 	font-size: 18px;
 	font-weight: normal;
-	color: #4b4b4b;
+	color: #3C7982;
 }
